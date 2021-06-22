@@ -1,0 +1,41 @@
+html {
+ font-family: Verdana;
+ background-color: black;
+}
+
+.main-header {
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+.main-video {
+    text-align: center;
+}
+
+.call-to-action {
+    font-size: 16px;
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.secondary-header {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.secondary-content {
+    text-align: center;
+}
+
+.more-info {
+    font-size: 21px;
+    color: gray;
+}
+
+footer {
+    color: gray;
+    text-align: right;
+}
