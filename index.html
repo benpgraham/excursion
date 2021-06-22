@@ -13,13 +13,17 @@
         </header>
 
         <main>
+            
             <!-- Main Video Section-->
 
             <article class="main-video">
                 <p><a class="call-to-action" href='#'> Download Excursion (Coming Soon!)</a></p>
-                <video autoplay muted loop>
+                <video id='vid' autoplay muted loop>
                     <source src='./resources/excursion.mp4' type='video/mp4'>
                     There was an error displaying this video</video>
+                    <script>
+                        document.getElementById('vid').play();
+                    </script>
             </article>
 
             <!-- Secondary Content Section-->
